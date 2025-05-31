@@ -1,0 +1,118 @@
+* {
+  font-family: "Jetbrains Mono NerdFont";
+}
+
+#waybar {
+  /* background: #171717; */
+  /* background: rgba(10, 10, 10, 0.4); */
+  background-color: transparent;
+  border-radius: 13px;
+  color: #fff;
+}
+
+#clock {
+  color: #fff;
+  background-color: rgba(5, 5, 5, 0.5);
+  margin: 3px 2px;
+  padding: 0px 3px;
+  border-radius: 8px;
+}
+
+#tray {
+  padding-left: 4px;
+  background-color: rgba(5, 5, 5, 0.5);
+  margin: 3px 2px;
+  padding: 0px 3px;
+  border-radius: 8px;
+}
+
+#workspaces {
+	background-color: rgba(5, 5, 5, 0.5);
+	margin: 3px 2px;
+	padding: 0px 0px;
+	border-radius: 8px;
+}
+
+#workspaces button:hover {
+  /* background-color: transparent; */
+  background-color: rgba(15, 15, 15, 0.5);
+}
+
+#workspaces button {
+  color: #b3b3b3;
+  padding: 2px 4px;
+  border-radius: 8px;
+}
+
+#workspaces button:hover {
+  background-color: #262626;
+}
+
+#workspaces button.active {
+  color: #4f75ff;
+  background-color: #232323;
+}
+
+#window {
+  color: #fff;
+  background-color: rgba(5, 5, 5, 0.5);
+  margin: 3px 2px;
+  padding: 0px 7px;
+  border-radius: 8px;
+}
+
+#custom-hardware-group {
+	color: #ff7c2b;
+	background-color: rgba(5, 5, 5, 0.5);
+	margin: 3px 4px;
+	padding: 0px 7px;
+	border-radius: 8px;
+}
+
+#network {
+  color: #3b82f6;
+  background-color: rgba(5, 5, 5, 0.5);
+  margin: 3px 2px;
+  padding-right: 9px;
+  border-radius: 8px;
+}
+
+#pulseaudio {
+  color: #14b8a6;
+  background-color: rgba(5, 5, 5, 0.5);
+  margin: 3px 2px;
+  padding: 0px 9px;
+  border-radius: 8px;
+}
+
+#cpu {
+  color: #0ea5e9;
+  background-color: rgba(5, 5, 5, 0.5);
+  margin: 3px 2px;
+  padding-left: 9px;
+  border-radius: 8px;
+}
+
+#temperature {
+  color: #eab308;
+  background-color: rgba(5, 5, 5, 0.5);
+  margin: 3px 2px;
+  padding-left: 9px;
+  border-radius: 8px;
+}
+
+#memory {
+  color: #d946ef;
+  background-color: rgba(5, 5, 5, 0.5);
+  margin: 3px 2px;
+  padding-left: 9px;
+  border-radius: 8px;
+}
+
+#custom-powermenu {
+  color: #f43f5e;
+  background-color: rgba(5, 5, 5, 0.5);
+  margin: 3px 2px;
+  padding: 0px 2px;
+  border-radius: 8px;
+}

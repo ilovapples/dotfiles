@@ -1,0 +1,179 @@
+{
+   "author": "Opera Software",
+   "description": "Theme by Opera",
+   "developer": {
+      "name": "Opera Software"
+   },
+   "icons": {
+      "218": "icon.png"
+   },
+   "key": "MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAvexthnfZY9ybSZyXxFFiRyuqfIBvMSuZYnOMEFNOvR5ZbNFDtX992yWNL6PlMg6wlqMOSNV+RmWMyWdt76I4T9ONMouen4CNU281NT8EXqtH6Ta2nAXe5SQxk+G6rUaOWi8coVRhUCpbPSh1SdIMMlR8IafKWtmyenD3Cj1swbr+e55HJ8t/+Prs1OGL0CAMwjHSHEyBG8X8v2nlXpXxwCAKfDVgyzM+uOWnrsPiy38W4isCrhir7Ic0LF/wxUBsxyrmimoiKh1eRwXgEfbAbUw4HJ9vYEzbGWuKwVk4QtMVNA3T55BKaySNgjaQ9BazMB/lurHO2GrJ6anYmS50e7kOpizCQ2k2/W3APSEA7bVt+0GYMNHWzk5Pzu7KQhc22oRvz49DwU9dxcbhO+WbxYUXYygU4KtgTxP1f9zifA0S56Jh33kVkUY80BLxfoanWNk8wFWsn9P4jUsb43BvQpf6XQqvzVwtabpGfcX+U7P5jk0Mglne64Oqsrj4NykC+XvJ+dIrQr2e4Z8Q1yKJNUxd1cBWGgPS/I5QHgaHk6vOQMcPeo9DL94cqPOP8lA1SCS0kEfN5BxdnBu5zMFoPe6D3+9gG2YgHpNUqsA8ml/ChIUlcaDDS8wX8LPzUQgP/7bQUidqagJQ+6raesGetK1h4nSYMXRA6kxK3wPN1h8CAwEAAQ==",
+   "manifest_version": 3,
+   "mod": {
+      "flavor": {
+         "features": [  ],
+         "hash": "74be16979710d4c4e7c6647856088456",
+         "parent_hash": "d41d8cd98f00b204e9800998ecf8427e"
+      },
+      "payload": {
+         "background_music": [ {
+            "author": "Opera",
+            "id": "0",
+            "name": "Metamorphic",
+            "tracks": [ "music/OPERA_METAMORPHIC_MUSIC_THEME_01_91_BPM.mp4" ]
+         } ],
+         "browser_sounds": [ {
+            "author": "Opera Software",
+            "id": "0",
+            "name": "Metamorphic",
+            "sounds": {
+               "ARIA_COMMAND_LINE_SHOWN": [ "sounds/ARIA_01_FAST_ATTACK.mp4", "sounds/ARIA_02.mp4" ],
+               "ARIA_SIDEBAR_PANEL_SHOWN": [ "sounds/ARIA_01_FAST_ATTACK.mp4", "sounds/ARIA_02.mp4" ],
+               "CLICK": [ "sounds/CLICK_02_DOUBLE.mp4" ],
+               "SPLIT_SCREEN_CREATE": [ "sounds/SPLIT_01_open.mp4" ],
+               "SPLIT_SCREEN_REMOVE": [ "sounds/SPLIT_02.mp4" ],
+               "TAB_CLOSE": [ "sounds/TAB_CLOSE_02.mp4" ],
+               "TAB_GROUP_COLLAPSE": [ "sounds/ISLAND_CLOSE_02.mp4" ],
+               "TAB_GROUP_CREATE": [ "sounds/ISLAND_FORM_02.mp4" ],
+               "TAB_GROUP_EXPAND": [ "sounds/ISLAND_FORM_02.mp4" ],
+               "TAB_INSERT": [ "sounds/TAB_OPEN_01.mp4" ]
+            }
+         } ],
+         "keyboard_sounds": [ {
+            "author": "Opera Software",
+            "id": "0",
+            "name": "Metamorphic",
+            "sounds": {
+               "TYPING_BACKSPACE": [ "sounds/TYPE_BACKSPACE_01.mp4" ],
+               "TYPING_ENTER": [ "sounds/TYPE_ENTER_01.mp4" ],
+               "TYPING_LETTER": [ "sounds/TYPE_LETTER_01.mp4", "sounds/TYPE_LETTER_02.mp4", "sounds/TYPE_LETTER_03.mp4" ],
+               "TYPING_SPACE": [ "sounds/TYPE_SPACE_01.mp4" ]
+            }
+         } ],
+         "theme": [ {
+            "dark": {
+               "accent": {
+                  "h": 232,
+                  "l": 57,
+                  "s": 91
+               },
+               "background": {
+                  "h": 234,
+                  "l": 4,
+                  "s": 91
+               },
+               "gx_accent": {
+                  "h": 232,
+                  "l": 57,
+                  "s": 91
+               },
+               "gx_secondary_base": {
+                  "h": 234,
+                  "l": 4,
+                  "s": 91
+               }
+            },
+            "id": "vibe",
+            "light": {
+               "accent": {
+                  "h": 255,
+                  "l": 51,
+                  "s": 25
+               },
+               "background": {
+                  "h": 256,
+                  "l": 90,
+                  "s": 36
+               },
+               "gx_accent": {
+                  "h": 255,
+                  "l": 51,
+                  "s": 25
+               },
+               "gx_secondary_base": {
+                  "h": 256,
+                  "l": 90,
+                  "s": 36
+               }
+            },
+            "name": "default"
+         } ],
+         "wallpaper": [ {
+            "dark": {
+               "groups": [ {
+                  "layers": [ {
+                     "resource": "wallpaper/dark.webm",
+                     "type": "video"
+                  } ]
+               } ],
+               "preview": {
+                  "270x360": "wallpaper/preview_dark.png"
+               },
+               "text_color": "#ffffff",
+               "text_shadow": "#000000"
+            },
+            "full_browser": true,
+            "id": "default",
+            "light": {
+               "groups": [ {
+                  "layers": [ {
+                     "resource": "wallpaper/light.webm",
+                     "type": "video"
+                  } ]
+               } ],
+               "preview": {
+                  "270x360": "wallpaper/preview_light.png"
+               },
+               "text_color": "#000000",
+               "text_shadow": "#ffffff"
+            },
+            "name": "default",
+            "title": "Default"
+         } ]
+      },
+      "schema_version": 2,
+      "settings": [ {
+         "id": "color_picker_x_axis",
+         "label": "color-picker-x",
+         "max": 1,
+         "max_label": "",
+         "min": 0,
+         "min_label": "",
+         "name": "color-picker-x-axis",
+         "step": 0.1,
+         "type": "range",
+         "value": 0.15
+      }, {
+         "id": "color_picker_y_axis",
+         "label": "color-picker-y",
+         "max": 1,
+         "max_label": "",
+         "min": 0,
+         "min_label": "",
+         "name": "color-picker-y-axis",
+         "step": 0.1,
+         "type": "range",
+         "value": 0.15
+      } ],
+      "vibe": {
+         "color-picker-palettes": {
+            "dark": {
+               "accent": "wallpaper/color_picker/accent_dark.png",
+               "background": "wallpaper/color_picker/background_dark.png"
+            },
+            "light": {
+               "accent": "wallpaper/color_picker/accent_light.png",
+               "background": "wallpaper/color_picker/background_light.png"
+            }
+         },
+         "preview": "wallpaper/preview.png",
+         "wallpaper": {
+            "animated": true,
+            "type": "video"
+         }
+      }
+   },
+   "name": "Opera One: Metamorphic",
+   "update_url": "https://api.gx.me/store/mods/update",
+   "version": "1.3.0"
+}

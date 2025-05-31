@@ -1,0 +1,119 @@
+{
+  "layer": "top",
+  "position": "top",
+  "margin": "3px 3px 1px 3px",
+  "modules-left": [
+  	"clock", 
+  	"custom/separator", 
+  	"hyprland/workspaces", 
+  	"custom/separator"
+  ],
+  "modules-center": ["hyprland/window"],
+  "modules-right": [
+  	"tray",
+    "group/hardware",
+    "pulseaudio",
+    "battery",
+    "network",
+    "custom/separator",
+    "custom/powermenu"
+  ],
+  "tray": {
+    "icon-size": 16,
+    "spacing": 8
+  },
+  "clock": {
+    // 24 hour
+    // "format": " {:%H:%M} ",
+    // 12 hour
+    "format": " 󰸗 {:%H:%M %p} ",
+    "interval": 60,
+    "tooltip": true,
+    "tooltip-format": "{:%B %d, %H:%M}"
+  },
+  "hyprland/workspaces": {
+    "format": "{icon}",
+    "separate-outputs": false,
+    "active-only": false,
+    // turn on true to show same all workspaces on each monitor
+    "all-outputs": false,
+    "format-icons": {
+      // 1-10
+      "1": "1",
+      "2": "2",
+      "3": "3",
+      "4": "4",
+      "5": "5",
+      "6": "6",
+      "7": "7",
+      "8": "8",
+      "9": "9",
+      "10": "10",
+      // 11-10
+      "11": "11",
+      "12": "12",
+      "13": "13",
+      "14": "14",
+      "15": "15",
+      "16": "16",
+      "17": "17",
+      "18": "18",
+      "19": "19",
+      "20": "20"
+    }
+  },
+  "hyprland/window": {
+    "format": "{}"
+  },
+  "group/hardware": {
+  	"orientation": "horizontal",
+  	"drawer": {
+  		"transition-duration": 500,
+  		"transition-left-to-right": false
+  	},
+  	"modules": [
+  		"custom/hardware-group",
+  		"temperature",
+  		"memory",
+  		"cpu"
+  	]
+  },
+  "custom/hardware-group": {
+  	"format": "Hardware",
+  	"tooltip-format": "Hardware Group"
+  },
+  "network": {
+    "format": " 󰖩 {ifname}",
+    // "tooltip": "{ifname}",
+    "tooltip-format": "{essid}",
+    "interval": 2
+  },
+  "temperature": {
+    "format": "{icon} {temperatureC}°C ",
+    "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
+    "critical-threshold": 80,
+    "format-icons": ["", "", ""]
+  },
+  "memory": {
+    "format": "󰫗 {}% ",
+    "tooltip": "false"
+  },
+  "cpu": {
+    "format": " {usage}% ",
+    "tooltip": "false"
+  },
+  "pulseaudio": {
+    "format": " {volume}%",
+    "scroll-step": 1,
+    "on-click": "pavucontrol"
+  },
+  "battery": {
+    "format": "{capacity}% {icon}",
+    "format-icons": ["", "", "", "", ""]
+  },
+  "custom/powermenu": {
+    "format": "  ",
+    "tooltip-format": "Right-click: Lock screen",
+    "on-click-right": "hyprlock"
+  }
+}

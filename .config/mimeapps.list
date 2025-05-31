@@ -1,0 +1,5 @@
+[Default Applications]
+image/jpeg=imv.desktop
+
+[Added Associations]
+image/jpeg=imv.desktop;

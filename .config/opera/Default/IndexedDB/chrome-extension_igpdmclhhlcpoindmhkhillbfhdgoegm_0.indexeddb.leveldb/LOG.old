@@ -1,0 +1,6 @@
+2025/05/24-02:12:42.983 13b8f Creating DB /home/asher/.config/opera/Default/IndexedDB/chrome-extension_igpdmclhhlcpoindmhkhillbfhdgoegm_0.indexeddb.leveldb since it was missing.
+2025/05/24-02:12:43.040 13b8f Reusing MANIFEST /home/asher/.config/opera/Default/IndexedDB/chrome-extension_igpdmclhhlcpoindmhkhillbfhdgoegm_0.indexeddb.leveldb/MANIFEST-000001
+2025/05/24-02:12:43.135 13b8f Level-0 table #5: started
+2025/05/24-02:12:43.155 13b8f Level-0 table #5: 1394 bytes OK
+2025/05/24-02:12:43.181 13b8f Delete type=0 #3
+2025/05/24-02:12:43.181 13b99 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
